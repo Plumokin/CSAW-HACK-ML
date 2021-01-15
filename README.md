@@ -20,7 +20,7 @@ Link to data files : https://drive.google.com/drive/folders/13o2ybRJ1BkGUvfmQEeZ
 
 ## Step 2: Checking Imports
 
-The following imports are required.
+The following imports are required. Please install them if they are not already installed
 
 	keras, tensorflow, h5py, numpy, matplotlib, random, opencv-python, datetime, scipy, imageio
 	
@@ -62,7 +62,7 @@ To evaluate an image with any eval script, use the following syntax, where items
 
 				eval_sunglasses.py, eval_anon1.py, eval_anon2.py, eval_mtmt.py
 
-			(Which corresponds to the sunglasses, anonymous 1, anonymous 2, and multi-target multi-trigger networks, respectively)
+				(Which corresponds to the sunglasses, anonymous 1, anonymous 2, and multi-target multi-trigger networks, respectively)
 
 			[image] can be any of the filenames (with extension) inside the eval/poisoned images
 			
